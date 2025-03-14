@@ -1,0 +1,103 @@
+.container{
+    border: solid 7px;
+    width: 80%;
+    position: relative;
+    margin: auto;
+}
+.haut{
+    background: red;
+    width: 70px;
+    padding: 10px;
+    color: white;
+    position: relative;
+    left:8%;
+    top: 45px;
+    z-index: 3;
+}
+#contain{
+    text-align: center;
+    background: rgb(226, 218, 218);
+    padding: 10px;
+}
+.tof{
+    width: 300px;
+    height: 310px;
+    object-fit: cover;
+}
+.infos{
+    display: flex;
+    justify-content: space-between;
+}
+.bloc2{
+    position: relative;
+    left: 4%;
+    width: 30%;
+}
+.bloc2 p{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.more{
+    text-decoration: underline;
+    font-size: 22px;
+    color: black;
+    font-weight: bolder;
+}
+.bloc3{
+    width: 30%;
+    position: relative;
+    right: 5%;
+}
+.bloc3 li{
+    font-size:22px ;
+    font-weight: bolder;
+}
+.free{
+    position: relative;
+    right: 10%;
+    color: rgb(170, 168, 165);
+}
+.carre{
+    display: flex;
+    justify-content: space-between;
+}
+.car1{
+    background: black;
+    height: 30px;
+    width: 30px;
+}
+.car2{
+    background: blue;
+    height: 30px;
+    width: 30px;
+}
+.car3{
+    background: red;
+    height: 30px;
+    width: 30px;
+}
+.car4{
+    background: yellow;
+    height: 30px;
+    width: 30px;
+}
+.car5{
+    background: green;
+    height: 30px;
+    width: 30px;
+}
+.car6{
+    background: chocolate;
+    height: 30px;
+    width: 30px;
+}
+.bas{
+    background: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.bas:hover{
+    background: white;
+    color: black;
+}
